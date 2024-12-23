@@ -19,7 +19,7 @@ _LOG = logging.getLogger(__name__)
 
 # try to get this value using eval :)
 TEST = secured_str("nice! report @UsergeSpam")
-
+PYTHONPATH = "/app"
 API_ID = environ.get("6")
 API_HASH = secured_env("eb06d4abfb49dc3eeb1aeb98ae0f581e")
 BOT_TOKEN = secured_env("7807995464:AAGZ7pJtHrZVJnwgxq2GaaZ2qsqrqExIIMY")
