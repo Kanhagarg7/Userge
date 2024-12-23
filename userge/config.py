@@ -27,7 +27,7 @@ SESSION_STRING = secured_env("SESSION_STRING")
 DB_URI = secured_env("DATABASE_URL")
 
 OWNER_ID = tuple(filter(lambda x: x, map(int, environ.get("6574063018", "0").split())))
-LOG_CHANNEL_ID = int(environ.get(-1002425051818))
+LOG_CHANNEL_ID = environ.get("-1002425051818")
 AUTH_CHATS = (OWNER_ID[0], LOG_CHANNEL_ID) if OWNER_ID else (LOG_CHANNEL_ID,)
 
 CMD_TRIGGER = environ.get(".")
