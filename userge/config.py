@@ -21,17 +21,17 @@ _LOG = logging.getLogger(__name__)
 TEST = secured_str("nice! report @UsergeSpam")
 
 API_ID = environ.get("6")
-API_HASH = secured_env("API_HASH")
-BOT_TOKEN = secured_env("BOT_TOKEN")
+API_HASH = secured_env("eb06d4abfb49dc3eeb1aeb98ae0f581e")
+BOT_TOKEN = secured_env("7807995464:AAGZ7pJtHrZVJnwgxq2GaaZ2qsqrqExIIMY")
 SESSION_STRING = secured_env("SESSION_STRING")
 DB_URI = secured_env("DATABASE_URL")
 
-OWNER_ID = tuple(filter(lambda x: x, map(int, environ.get("OWNER_ID", "0").split())))
-LOG_CHANNEL_ID = int(environ.get("LOG_CHANNEL_ID"))
+OWNER_ID = tuple(filter(lambda x: x, map(int, environ.get("6574063018", "0").split())))
+LOG_CHANNEL_ID = int(environ.get("-1002425051818"))
 AUTH_CHATS = (OWNER_ID[0], LOG_CHANNEL_ID) if OWNER_ID else (LOG_CHANNEL_ID,)
 
-CMD_TRIGGER = environ.get("CMD_TRIGGER")
-SUDO_TRIGGER = environ.get("SUDO_TRIGGER")
+CMD_TRIGGER = environ.get(".")
+SUDO_TRIGGER = environ.get(".")
 PUBLIC_TRIGGER = '/'
 
 WORKERS = int(environ.get("WORKERS"))
