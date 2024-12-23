@@ -10,6 +10,6 @@ commands:
   package:
     - "ffmpeg build-essential"
   start:
-    - "python3 -m us*"
+    - "python3 -m userge"
   env:
     - "ENVIRONMENT=production"
