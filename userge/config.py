@@ -20,7 +20,7 @@ _LOG = logging.getLogger(__name__)
 # try to get this value using eval :)
 TEST = secured_str("nice! report @UsergeSpam")
 
-API_ID = environ.get("API_ID")
+API_ID = environ.get("6")
 API_HASH = secured_env("API_HASH")
 BOT_TOKEN = secured_env("BOT_TOKEN")
 SESSION_STRING = secured_env("SESSION_STRING")
