@@ -1,7 +1,7 @@
 user:
   name: kanhagarg7
   github: kanhagarg7 
-language: "nodejs"
+language: "node.js"
 nodejs_version: "latest"
 
 commands:
