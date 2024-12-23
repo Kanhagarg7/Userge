@@ -34,7 +34,7 @@ CMD_TRIGGER = environ.get(".")
 SUDO_TRIGGER = environ.get(".")
 PUBLIC_TRIGGER = '/'
 
-WORKERS = int(environ.get("WORKERS", "1")) 
+WORKERS = environ.get("WORKERS")
 MAX_MESSAGE_LENGTH = 4096
 FINISHED_PROGRESS_STR = environ.get("FINISHED_PROGRESS_STR")
 UNFINISHED_PROGRESS_STR = environ.get("UNFINISHED_PROGRESS_STR")
