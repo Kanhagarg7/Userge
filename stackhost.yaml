@@ -1,8 +1,8 @@
 user:
   name: kanhagarg7
   github: kanhagarg7 
-language: "python"
-python_version: "3.10"
+language: "nodejs"
+nodejs_version: "latest"
 
 commands:
   build:
